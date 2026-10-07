@@ -76,10 +76,13 @@ Se o usuário pedir para "adicionar a próxima versão" ou "publicar o changelog
 2. **Sem dados sensíveis:** nada de nomes de clientes, métricas internas reais, URLs internas.
 3. **Acessibilidade básica:** hierarquia de headings correta (`h1` único, `h2` por versão), texto alternativo em ícones/imagens quando aplicável.
 4. **Performance:** o arquivo deve continuar leve — evitar imagens pesadas não otimizadas; preferir SVG/ícones.
-5. **Git & Versionamento:** **FORBIDDEN** — não executar comandos Git (`git add`, `git commit`, etc.). O usuário cuida do versionamento manualmente.
 
 ---
 
 ## 🔤 IDIOMA
 
 Todo o conteúdo visível no site (títulos, descrições de release, labels) deve ser escrito em **português**, salvo instrução contrária do usuário.
+
+## GIT
+
+Pode executar commits e push para a branch `main` do repositório.
